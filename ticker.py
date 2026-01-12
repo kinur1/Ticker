@@ -72,7 +72,7 @@ def get_table_with_fallback():
 # =========================
 # UI
 # =========================
-st.title("📌 Daftar Ticker Crypto (Yahoo Finance)")
+st.title("Daftar Ticker Crypto")
 
 # cooldown refresh biar user gak spam
 if "last_refresh" not in st.session_state:
